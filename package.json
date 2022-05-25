@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@k8s-demo/common": "^1.0.8"
+  }
+}
