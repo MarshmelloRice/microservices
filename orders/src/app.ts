@@ -4,10 +4,10 @@ import { json } from 'body-parser';
 import cookieSession from 'cookie-session';
 import { errorHandler, NotFoundError, currentUser } from '@k8s-demo/common';
 
-import { deleteOrderRouter } from '../routes/delete';
-import { indexOrderRouter } from '../routes';
-import { showOrderRouter } from '../routes/show';
-import { newOrderRouter } from '../routes/new';
+import { deleteOrderRouter } from './routes/delete';
+import { indexOrderRouter } from './routes';
+import { showOrderRouter } from './routes/show';
+import { newOrderRouter } from './routes/new';
 
 const app = express();
 app.set('trust proxy', true);
